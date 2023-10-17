@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .game-covers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .game-cover {
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .game-cover img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .game-cover h3 {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  aside {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .game-list {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .game-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-list ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .footer-copyright {
+    color: white;
+  }
