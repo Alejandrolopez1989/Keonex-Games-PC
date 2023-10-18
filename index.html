@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
@@ -12,9 +13,16 @@
     </div>
     <nav>
       <ul>
-        <li><a href="juegos/Forza Motorsport Premium Edition.html">Inicio</a></li>
-        <li><a href="enlaces/ENLACE Forza Motorsport Premium Edition.html">Juegos</a></li>
-        <li><a href="#">Categorías</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Juegos</a></li>
+        <li class="dropdown">
+          <a href="#">Categorías</a>
+          <ul class="dropdown-menu">
+            <li><a href="categoria1.html">Categoría 1</a></li>
+            <li><a href="categoria2.html">Categoría 2</a></li>
+            <li><a href="categoria3.html">Categoría 3</a></li>
+          </ul>
+        </li>
         <li><a href="#">Plataformas</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
@@ -24,21 +32,19 @@
       <button type="button" onclick="searchPage()">Buscar</button>
     </div>
   </header>
-  
   <main>
-    <section>
-      <h2>Juegos populares</h2>
+    <section>      
       <div class="game-covers">
         <div class="game-cover">
-          <a href="juego1.html">
-            <img src="sniper elite.jpg" alt="Portada del juego 1">
-            <h3>Juego 1</h3>
+          <a href="juegos/Forza Motorsport Premium Edition.html">
+            <img src="imagen/Forza Motorsport Premium Edition.jpg" alt="Portada del juego 1">
+            <h3>Forza Motorsport Premium Edition (2023)</h3>
           </a>
         </div>
         <div class="game-cover">
-          <a href="juego2.html">
-            <img src="cover2.jpg" alt="Portada del juego 2">
-            <h3>Juego 2</h3>
+          <a href="juegos/Vampire The Masquerade – Swansong.html">
+            <img src="imagen/Vampire  The Masquerade Swansong.jpg" alt="Portada del juego 2">
+            <h3>Vampire The Masquerade – Swansong</h3>
           </a>
         </div>
         <div class="game-cover">
@@ -85,93 +91,15 @@
         </div>
       </div>
     </section>
-    
-    <section>
-      <h2>Juegos nuevos</h2>
-      <div class="game-covers">
-        <div class="game-cover">
-          <a href="juego10.html">
-            <img src="cover10.jpg" alt="Portada del juego 10">
-            <h3>Juego 10</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego11.html">
-            <img src="cover11.jpg" alt="Portada del juego 11">
-            <h3>Juego 11</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego12.html">
-            <img src="cover12.jpg" alt="Portada del juego 12">
-            <h3>Juego 12</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego13.html">
-            <img src="cover13.jpg" alt="Portada del juego 13">
-            <h3>Juego 13</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego14.html">
-            <img src="cover14.jpg" alt="Portada del juego 14">
-            <h3>Juego 14</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego15.html">
-            <img src="cover15.jpg" alt="Portada del juego 15">
-            <h3>Juego 15</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego16.html">
-            <img src="cover16.jpg" alt="Portada del juego 16">
-            <h3>Juego 16</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego17.html">
-            <img src="cover17.jpg" alt="Portada del juego 17">
-            <h3>Juego 17</h3>
-          </a>
-        </div>
-        <div class="game-cover">
-          <a href="juego18.html">
-            <img src="cover18.jpg" alt="Portada del juego 18">
-            <h3>Juego 18</h3>
-          </a>
-        </div>
+    <footer>
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="logo.png" alt="Logo de la página">
+        </a>
       </div>
-    </section>
-  </main>
-  <aside>
-    <h2>Los más descargados</h2>
-    <div class="game-list">
-      <ul>
-        <li>Juego 1</li>
-        <li>Juego 2</li>
-        <li>Juego 3</li>
-        <li>Juego 4</li>
-        <li>Juego 5</li>
-        <li>Juego 6</li>
-        <li>Juego 7</li>
-        <li>Juego 8</li>
-        <li>Juego 9</li>
-        <li>Juego 10</li>
-      </ul>
-    </div>
-  </aside>
-  <footer>
-    <div class="footer-logo">
-      <a href="index.html">
-        <img src="logo.png" alt="Logo de la página">
-      </a>
-    </div>
-    <div class="footer-copyright">
-      © 2022 Derechos de autor. Todos los derechos reservados.
-    </div>
-  </footer>
+      <div class="footer-copyright">
+        © 2022 Derechos de autor. Todos los derechos reservados.
+      </div>
+    </footer> 
 </body>
 </html>
