@@ -137,3 +137,38 @@ body {
   .footer-copyright {
     color: white;
   }
+
+  /* Estilos para el menú desplegable */
+.dropdown-menu {
+  display: none; /* Ocultar el submenú por defecto */
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block; /* Mostrar el submenú al pasar el mouse sobre el elemento padre */
+}
+
+.dropdown-menu li {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li:hover {
+  background-color: #000000; /* Cambiar el color de fondo al pasar el mouse sobre los elementos del submenú */
+}
+
+body a {
+  color: white;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+body a:hover,
+body a:active {
+  color: red;
+}
