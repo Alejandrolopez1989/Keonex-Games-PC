@@ -21,7 +21,7 @@
     }
 
     ::selection {
-        background-color: #e70634;
+        background-color: #88389c;
         color: #080808;
     }
 
@@ -258,7 +258,7 @@
     }
 
     .main-slider-text .año {
-        background-color: #e70634;
+        background-color: #88389c;
         color: #ffffff;
         font-weight: 600;
         padding: 0px 5px;
@@ -406,7 +406,7 @@
     }
 
     .latest-heading h1 {
-        color: #e70634;
+        color: #88389c;
         font-size: 2rem;
         font-weight: 500;
         text-align: center;
@@ -756,7 +756,7 @@
     }
 
     .title-bottom .category a {
-        color: #e70634;
+        color: #88389c;
         margin-right: 5px;
         font-size: 14px;
     }
@@ -811,7 +811,7 @@
     }
 
     .play-btn a:hover {
-        background-color: #e70634;
+        background-color: #88389c;
         transition: all ease 0.3s;
     }
 
@@ -875,7 +875,7 @@
         right: 60px;
         top: 60px;
         font-size: 2rem;
-        color: #e70634;
+        color: #88389c;
         transition: all ease 0.3s;
     }
 
@@ -919,7 +919,7 @@
     }
 
     .screenshots strong {
-        color: #e70634;
+        color: #88389c;
         font-family: Monoton;
         font-size: 2rem;
         font-weight: 400;
@@ -974,7 +974,7 @@
     }
 
     .download-box a {
-        color: #e70634;
+        color: #88389c;
         transition: all ease 0.3s;
     }
 
