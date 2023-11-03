@@ -23,7 +23,7 @@
   
   h1 {
     text-align: center;
-    color: #e70634; /* Cambia el color del texto */
+    color: #88389c; /* Cambia el color del texto */
     font-family: 'Monoton', sans-serif;
   }
   
@@ -39,9 +39,9 @@
   button {
     width: 100%;
     padding: 10px;
-    background: #c82525;
+    background: #88389c;
     color: #ffffff;
-    border: 1px solid #df1425a9;
+    border: 1px solid #88389c;
     border-radius: 3px;
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -50,7 +50,7 @@
   }
   
   button:hover {
-    background-color: #e20000;
+    background-color: #88389c;
     transition: all ease 0.3s;
     box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
     outline-color: rgba(49, 138, 172, 0);
