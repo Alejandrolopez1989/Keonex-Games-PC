@@ -12,7 +12,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       { username: "Tingo.92", password: "12345678" },
       { username: "Puki", password: "Pukipuka" },
       { username: "Hamlet", password: "Hamlet97" },
-      { username: "usuario4", password: "contraseña4" }
+      { username: "lu111s", password: "lu1s2023" }
     ];
   
     // Verifica si el usuario y la contraseña coinciden con los datos almacenados
