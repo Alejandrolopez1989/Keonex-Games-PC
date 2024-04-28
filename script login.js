@@ -11,7 +11,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       { username: "Guillermo", password: "maykol2023" },
       { username: "yosbani", password: "yosbani2024cuba" },
       { username: "Perrito18", password: "supercan" },
-      { username: "Dragón", password: "12345" },    
+      { username: "Dragón", password: "12345" },
+      { username: "Owen", password: "owendg06" },    
       { username: "Naylis", password: "Nefc01" }
       
     ];
