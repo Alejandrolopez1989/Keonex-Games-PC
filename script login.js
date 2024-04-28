@@ -9,7 +9,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var users = [
       { username: "Keonex", password: "alejandro89" },
       { username: "Guillermo", password: "maykol2023" },
-      { username: "Robert", password: "DMX90" }
+      { username: "Guillermo", password: "maykol2023" }
+      { username: "Naylis", password: "Nefc01" },
       
     ];
   
